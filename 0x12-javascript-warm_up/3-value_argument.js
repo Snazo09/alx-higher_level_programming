@@ -1,8 +1,9 @@
 #!/usr/bin/node
-// prints the first argument passed to it
 
-if (process.argv.length === 2) {
-  console.log('No argument');
+const firstArg = proccess.argv[2];
+
+if (firstArgv) {
+  console.log(firstArg);
 } else {
-  console.log(process.argv[2]);
+  console.log('No argument');
 }
